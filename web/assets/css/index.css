@@ -8,11 +8,11 @@ Paleta de color monocromaticos
 */
 
 #header{
-    background: linear-gradient(90deg,#EEDAF7,#9463AB 25%,#684678);
+    background: linear-gradient(90deg,#684678,#9463AB 25%,#BE67C2);
 }
 
 #header img{
-    max-width: 140px;
+    max-width: 110px;
 }
 
 #main .carousel-inner img{
@@ -34,16 +34,41 @@ Paleta de color monocromaticos
     right: 0;
     background-color: rgba(0, 0, 0, .5);
     color: white;
+}
 
+.card-img-horizontal{
+    object-fit: cover; 
+    min-height: 212px;
+    height: 100%;
+    min-width: 195px;
+}
+
+.card-img-vertical{
+    object-fit: cover;
+    width: 100%;
+    max-height: 225px;
+}
+
+#footer{
+    background: linear-gradient(90deg,#684678,#9463AB 25%,#BE67C2);
+      color: white;  
+}
+
+#footer a{
+    color: white;;
+}
+
+#footer img{
+    width: 60px;
 }
 
 
 .btn-elidi{
-    background-color: #B2A3B9 !important;
-    color:lightcyan;
+    background-color: #684678 !important;
+    color:whitesmoke;
 }
 
 .btn-elidi:hover{
     background-color: #9463AB !important;
-    color: lightcyan;
+    color: whitesmoke;
 }
